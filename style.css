@@ -93,15 +93,15 @@ img.avatar {
   transform: translateY(-50%);
   top: 50%;
   z-index: 1;
-  animation: slide-out .2s;
+  animation: slide-out 0.2s;
 }
 
 .light #switch button {
   animation: slide-in 0.2s forwards;
 }
 
-#switch button:hover{
-  outline: 8px solid var(--highlight-color)
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span {
@@ -200,11 +200,11 @@ footer a:hover {
     left: 50%;
   }
 }
-@keyframes slide-out{
-  from{
+@keyframes slide-out {
+  from {
     left: 50%;
   }
-  to{
+  to {
     left: 0;
   }
 }
